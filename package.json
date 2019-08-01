@@ -30,6 +30,7 @@
     "@babel/cli": "^7.5.5",
     "@babel/core": "^7.5.5",
     "@babel/preset-env": "^7.5.5",
+    "electron": "^6.0.0",
     "eslint": "^6.0.1",
     "eslint-config-standard": "^13.0.1",
     "eslint-plugin-import": "^2.18.0",
@@ -37,5 +38,9 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.0",
     "rimraf": "^2.6.3"
+  },
+  "dependencies": {
+    "@anujdatar/appconfig": "^1.0.1-1",
+    "core-js": "^3.1.4"
   }
 }
