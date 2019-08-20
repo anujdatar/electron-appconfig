@@ -40,7 +40,7 @@
     "rimraf": "^2.6.3"
   },
   "dependencies": {
-    "@anujdatar/appconfig": "^1.0.1-1",
+    "@anujdatar/appconfig": "^1.1.0",
     "core-js": "^3.1.4"
   }
 }

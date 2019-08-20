@@ -9,6 +9,7 @@ class ElectronAppConfig extends AppConfig {
       ...options
     }
     const defaultCwd = (electron.app || electron.remote.app).getPath('userData')
+    // console.log(defaultCwd)
 
     if (options.configDir) {
       options.configDir = path.isAbsolute(options.configDir) ? options.configDir : path.join(defaultCwd, options.configDir)
@@ -20,7 +21,3 @@ class ElectronAppConfig extends AppConfig {
 }
 
 module.exports = ElectronAppConfig
-
-// const test = new ElectronAppConfig()
-
-// console.log(test.configDir)
